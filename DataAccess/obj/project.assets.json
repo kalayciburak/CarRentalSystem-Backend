@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "D:\\.nuget\\packages": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

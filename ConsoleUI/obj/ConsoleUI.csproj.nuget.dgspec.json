@@ -4,6 +4,65 @@
     "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
+    "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Business\\Business.csproj",
+        "packagesPath": "D:\\.nuget\\packages",
+        "outputPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +71,130 @@
         "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "D:\\.nuget\\packages",
         "outputPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\ConsoleUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Business\\Business.csproj"
+              },
+              "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "D:\\.nuget\\packages",
+        "outputPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\Entities.csproj",
+        "packagesPath": "D:\\.nuget\\packages",
+        "outputPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,12 +230,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.17, 5.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

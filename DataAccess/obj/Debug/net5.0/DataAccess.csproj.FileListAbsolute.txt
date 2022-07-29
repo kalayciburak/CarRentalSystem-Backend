@@ -1,0 +1,15 @@
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\bin\Debug\net5.0\Entities.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\bin\Debug\net5.0\Entities.pdb
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
