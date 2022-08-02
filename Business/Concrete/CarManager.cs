@@ -37,11 +37,11 @@ namespace Business.Concrete {
         }
 
         public void Update(Car car) {
-            throw new System.NotImplementedException();
+            _carDal.Update(car);
         }
 
         public void Delete(Car car) {
-            throw new System.NotImplementedException();
+            _carDal.Delete(car);
         }
     }
 }

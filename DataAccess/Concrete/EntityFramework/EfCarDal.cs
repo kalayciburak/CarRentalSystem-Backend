@@ -9,8 +9,8 @@ namespace DataAccess.Concrete.EntityFramework {
     public class EfCarDal : ICarDal {
         public List<Car> GetAll(Expression<Func<Car, bool>> filter = null) {
             using var context = new CarRentalContext();
-            return filter == null 
-                ? context.Cars.ToList() 
+            return filter == null
+                ? context.Cars.ToList()
                 : context.Cars.Where(filter).ToList();
         }
 
@@ -27,13 +27,22 @@ namespace DataAccess.Concrete.EntityFramework {
 
         public void Update(Car entity) {
             using var context = new CarRentalContext();
-            context.Cars.Update(entity);
+            var carToUpdate = context.Cars.SingleOrDefault(c => c.CarId == entity.CarId);
+            
+            if (carToUpdate == null) return;
+            carToUpdate.BrandId = entity.BrandId;
+            carToUpdate.ColorId = entity.ColorId;
+            carToUpdate.ModelYear = entity.ModelYear;
+            carToUpdate.DailyPrice = entity.DailyPrice;
+            carToUpdate.Description = entity.Description;
+            
             context.SaveChanges();
         }
 
         public void Delete(Car entity) {
             using var context = new CarRentalContext();
-            context.Cars.Remove(entity);
+            context.Cars.Remove(context.Cars.SingleOrDefault(c => c.CarId == entity.CarId) ??
+                                throw new InvalidOperationException());
             context.SaveChanges();
         }
     }
