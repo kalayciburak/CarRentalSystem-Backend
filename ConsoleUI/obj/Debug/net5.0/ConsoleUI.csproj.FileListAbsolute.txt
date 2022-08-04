@@ -36,3 +36,5 @@ D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Mic
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Npgsql.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Core.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Core.pdb

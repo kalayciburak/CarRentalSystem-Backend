@@ -4,6 +4,7 @@ using System.Linq;
 using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTO;
 
 namespace Business.Concrete {
     public class CarManager : ICarService {
@@ -42,6 +43,10 @@ namespace Business.Concrete {
 
         public void Delete(Car car) {
             _carDal.Delete(car);
+        }
+
+        public List<CarDetailDto> GetCarDetails() {
+            return _carDal.GetCarDetails();
         }
     }
 }

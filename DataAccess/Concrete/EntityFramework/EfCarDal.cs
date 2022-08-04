@@ -1,49 +1,25 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
+using Core.DataAccess.EntityFramework;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTO;
 
 namespace DataAccess.Concrete.EntityFramework {
-    public class EfCarDal : ICarDal {
-        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null) {
+    public class EfCarDal : EfEntityRepositoryBase<Car, CarRentalContext>, ICarDal {
+        public List<CarDetailDto> GetCarDetails() {
             using var context = new CarRentalContext();
-            return filter == null
-                ? context.Cars.ToList()
-                : context.Cars.Where(filter).ToList();
-        }
+            var result = from car in context.Cars
+                join brand in context.Brands on car.BrandId equals brand.BrandId
+                join color in context.Colors on car.ColorId equals color.ColorId
+                select new CarDetailDto {
+                    CarName = car.Description,
+                    BrandName = brand.BrandName,
+                    ColorName = color.ColorName,
+                    DailyPrice = car.DailyPrice
+                };
 
-        public Car Get(Expression<Func<Car, bool>> filter) {
-            using var context = new CarRentalContext();
-            return context.Cars.FirstOrDefault(filter);
-        }
-
-        public void Add(Car entity) {
-            using var context = new CarRentalContext();
-            context.Cars.Add(entity);
-            context.SaveChanges();
-        }
-
-        public void Update(Car entity) {
-            using var context = new CarRentalContext();
-            var carToUpdate = context.Cars.SingleOrDefault(c => c.CarId == entity.CarId);
-            
-            if (carToUpdate == null) return;
-            carToUpdate.BrandId = entity.BrandId;
-            carToUpdate.ColorId = entity.ColorId;
-            carToUpdate.ModelYear = entity.ModelYear;
-            carToUpdate.DailyPrice = entity.DailyPrice;
-            carToUpdate.Description = entity.Description;
-            
-            context.SaveChanges();
-        }
-
-        public void Delete(Car entity) {
-            using var context = new CarRentalContext();
-            context.Cars.Remove(context.Cars.SingleOrDefault(c => c.CarId == entity.CarId) ??
-                                throw new InvalidOperationException());
-            context.SaveChanges();
+            return result.ToList();
         }
     }
 }

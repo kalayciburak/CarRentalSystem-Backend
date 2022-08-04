@@ -10,3 +10,6 @@ D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Entities\obj\Debug\net5.0\Enti
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Entities\obj\Debug\net5.0\refint\Entities.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Entities\obj\Debug\net5.0\Entities.pdb
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Entities\obj\Debug\net5.0\ref\Entities.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Entities\bin\Debug\net5.0\Core.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Entities\bin\Debug\net5.0\Core.pdb
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Entities\obj\Debug\net5.0\Entities.csproj.CopyComplete

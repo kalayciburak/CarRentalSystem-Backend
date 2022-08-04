@@ -13,3 +13,5 @@ D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\Da
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\DataAccess.pdb
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\bin\Debug\net5.0\Core.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\DataAccess\bin\Debug\net5.0\Core.pdb
