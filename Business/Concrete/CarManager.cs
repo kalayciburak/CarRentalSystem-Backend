@@ -28,6 +28,10 @@ namespace Business.Concrete {
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == colorId).ToList());
         }
 
+        public IDataResult<Car> GetById(int id) {
+            return new SuccessDataResult<Car>(_carDal.Get(c => c.CarId == id));
+        }
+
         public IResult Add(Car car) {
             if (car.Description.Length >= 2 && car.DailyPrice > 0) {
                 _carDal.Add(car);

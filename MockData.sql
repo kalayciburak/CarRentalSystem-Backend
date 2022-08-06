@@ -1,0 +1,65 @@
+insert into "Brands" ("BrandName") values ('Toyota');
+insert into "Brands" ("BrandName") values ('Mercury');
+insert into "Brands" ("BrandName") values ('Infiniti');
+insert into "Brands" ("BrandName") values ('Ford');
+insert into "Brands" ("BrandName") values ('Nissan');
+insert into "Brands" ("BrandName") values ('Audi');
+insert into "Brands" ("BrandName") values ('Mazda');
+insert into "Brands" ("BrandName") values ('Acura');
+insert into "Brands" ("BrandName") values ('Mercedes-Benz');
+insert into "Brands" ("BrandName") values ('Mitsubishi');
+
+insert into "Colors" ("ColorName") values ('Khaki');
+insert into "Colors" ("ColorName") values ('Yellow');
+insert into "Colors" ("ColorName") values ('Aquamarine');
+insert into "Colors" ("ColorName") values ('Red');
+insert into "Colors" ("ColorName") values ('Maroon');
+insert into "Colors" ("ColorName") values ('Goldenrod');
+insert into "Colors" ("ColorName") values ('Black');
+insert into "Colors" ("ColorName") values ('Puce');
+insert into "Colors" ("ColorName") values ('Mauv');
+insert into "Colors" ("ColorName") values ('Teal');
+
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (1, 1, 2000, 16996, 'B-Series');
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (2, 2, 1997, 41622, 'Defender 90');
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (3, 3, 2004, 1265, 'Axiom');
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (4, 4, 1996, 19385, 'Park Avenue');
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (5, 5, 1992, 41937, 'Beretta');
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (6, 6, 1995, 39744, 'Corvette');
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (7, 7, 1986, 12055, 'LeSabre');
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (8, 8, 2009, 23412, 'F350');
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (9, 9, 2008, 46943, 'Daewoo Lacetti');
+insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (10, 10, 1995, 9281, 'T100 Xtra');
+
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Guinna', 'Clunie', 'gclunie0@plala.or.jp', 'kE50hpPe6Qo1');
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Tasia', 'Ripley', 'tripley1@xinhuanet.com', 'lEbxWW');
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Dominique', 'Muckeen', 'dmuckeen2@ebay.com', '24jGzMsJ');
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Winston', 'Condon', 'wcondon3@sbwire.com', 'RMxtnXVZeiCL');
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Tait', 'Malafe', 'tmalafe4@wordpress.com', 'fQTmXrWt');
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Garvy', 'Tyzack', 'gtyzack5@cnbc.com', 'fEVcnDUpk');
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Niven', 'Boldero', 'nboldero6@hc360.com', 'ObHN8vC7cu1');
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Hersh', 'McQuirter', 'hmcquirter7@about.com', 'D5bltMH');
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Di', 'Barnardo', 'dbarnardo8@yolasite.com', 'zFqXQsFZcM');
+insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Monti', 'Fisby', 'mfisby9@163.com', 'kLfMyCPrOg2');
+
+insert into "Customers" ("UserId", "CompanyName") values (1, 'Youspan');
+insert into "Customers" ("UserId", "CompanyName") values (2, 'Riffpath');
+insert into "Customers" ("UserId", "CompanyName") values (3, 'Shuffledrive');
+insert into "Customers" ("UserId", "CompanyName") values (4, 'Fivebridge');
+insert into "Customers" ("UserId", "CompanyName") values (5, 'Podcat');
+insert into "Customers" ("UserId", "CompanyName") values (6, 'Meeveo');
+insert into "Customers" ("UserId", "CompanyName") values (7, 'Bubblebox');
+insert into "Customers" ("UserId", "CompanyName") values (8, 'Rhybox');
+insert into "Customers" ("UserId", "CompanyName") values (9, 'Skipstorm');
+insert into "Customers" ("UserId", "CompanyName") values (10, 'Eazzy');
+
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (1, 1, '10/15/2021', '7/27/2021');
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (2, 2, '11/9/2021', '3/31/2022');
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (3, 3, '6/30/2020', '8/16/2021');
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (4, 4, '8/10/2022', '3/10/2022');
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (5, 5, '4/25/2021', '1/19/2022');
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (6, 6, '4/13/2020', '2/16/2022');
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (7, 7, '10/29/2021', '1/14/2022');
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (8, 8, '6/24/2022', '8/30/2021');
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (9, 9, '5/22/2020', '2/15/2022');
+insert into "Rentals" ("CarId", "CustomerId", "RentDate", "ReturnDate") values (10, 10, '4/19/2021', '10/11/2021');
