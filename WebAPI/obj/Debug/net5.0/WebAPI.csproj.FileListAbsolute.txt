@@ -41,3 +41,9 @@ D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Busine
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Core.pdb
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\DataAccess.pdb
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Entities.pdb
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll

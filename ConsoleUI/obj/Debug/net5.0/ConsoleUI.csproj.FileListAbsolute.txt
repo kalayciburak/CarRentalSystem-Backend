@@ -38,3 +38,8 @@ D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Npg
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Core.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Core.pdb
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Autofac.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Autofac.Extras.DynamicProxy.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Castle.Core.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\FluentValidation.dll
