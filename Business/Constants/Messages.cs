@@ -6,5 +6,6 @@ namespace Business.Constants {
         public static string CarsListed = "Arabalar başarıyla listelendi.";
         public static string RentalError = "Araba teslim edilmemiş.";
         public static string RentalSuccess = "Araba kiralama işlemi başarılı.";
+        public static string ImageLimitExceeded = "Resim limiti aşıldı.";
     }
 }

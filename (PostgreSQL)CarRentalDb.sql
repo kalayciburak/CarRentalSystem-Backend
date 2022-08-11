@@ -57,6 +57,14 @@ CREATE TABLE "Rentals"
     "ReturnDate" DATE
 );
 
+CREATE TABLE "CarImages"
+(
+    "CarImageId"   integer primary key generated always as identity,
+    "CarId"     INTEGER NOT NULL,
+    "ImagePath" TEXT,
+    "DateAdded" DATE    NOT NULL
+);
+
 ALTER TABLE "Cars"
     ADD CONSTRAINT FK_Car_Brand FOREIGN KEY ("BrandId") REFERENCES "Brands" ("BrandId");
 ALTER TABLE "Cars"
@@ -67,3 +75,5 @@ ALTER TABLE "Rentals"
     ADD CONSTRAINT FK_Rental_Car FOREIGN KEY ("CarId") REFERENCES "Cars" ("CarId");
 ALTER TABLE "Rentals"
     ADD CONSTRAINT FK_Rental_Customer FOREIGN KEY ("CustomerId") REFERENCES "Customers" ("CustomerId");
+ALTER TABLE "CarImages"
+    ADD CONSTRAINT FK_Image_Car FOREIGN KEY ("CarId") REFERENCES "Cars" ("CarId");

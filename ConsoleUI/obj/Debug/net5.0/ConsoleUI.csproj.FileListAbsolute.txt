@@ -43,3 +43,9 @@ D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Aut
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Castle.Core.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\FluentValidation.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\ConsoleUI\bin\Debug\net5.0\Microsoft.Net.Http.Headers.dll
