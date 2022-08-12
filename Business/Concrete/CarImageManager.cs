@@ -56,7 +56,7 @@ namespace Business.Concrete {
         }
 
         public IResult Update(CarImage carImage, IFormFile formFile) {
-            carImage.ImagePath = _fileHelper.UpdateFile(formFile, Paths.CarImagesPath + carImage.ImagePath,
+            carImage.ImagePath = _fileHelper.UpdateFile(formFile, carImage.ImagePath,
                 Paths.CarImagesPath);
             carImage.DateAdded = DateTime.Now;
 

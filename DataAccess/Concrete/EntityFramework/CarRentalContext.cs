@@ -5,7 +5,7 @@ namespace DataAccess.Concrete.EntityFramework {
     public class CarRentalContext : DbContext {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
             optionsBuilder.UseNpgsql(
-                "Host=localhost;Database=CarRentalDb;Username=postgres;Password=********");
+                "Host=localhost;Database=CarRentalSystem;Username=postgres;Password=*********");
         }
 
         public DbSet<Car> Cars { get; set; }
