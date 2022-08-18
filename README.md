@@ -4,4 +4,4 @@
 
 ### <span style="color:lightBlue"> CarRentalDb</span>
 
-<img src="https://user-images.githubusercontent.com/61664693/184050450-8a7bd62e-9fc6-47a7-8ee5-31bdf4aa21ef.png" width="400px"/>
+<img src="https://user-images.githubusercontent.com/61664693/185264275-3a59be64-e29c-4129-a41f-01b55918c687.png" width="600px"/>

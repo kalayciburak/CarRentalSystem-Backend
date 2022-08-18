@@ -54,9 +54,21 @@
               "target": "Package",
               "version": "[11.1.1, )"
             },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.0, )"
             }
           },
           "imports": [
@@ -65,7 +77,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -121,7 +134,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -130,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

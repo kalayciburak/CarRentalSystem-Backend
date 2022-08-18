@@ -1,5 +1,6 @@
 ﻿using System;
 using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 
@@ -74,21 +75,21 @@ namespace ConsoleUI {
             Console.WriteLine(colorManager.GetById(6).Data.ColorName);
         }
 
-        private static void UserTest(UserManager userManager) {
-            var newUser = new User {
-                UserId = 11,
-                FirstName = "Burak",
-                LastName = "Kalaycı",
-                Email = "tbyte@gmail.com",
-                Password = "5581475315"
-            };
-
-            userManager.Add(newUser);
-
-            foreach (var user in userManager.GetAll().Data) {
-                Console.WriteLine($"{user.FirstName} {user.LastName} / {user.Email}");
-            }
-        }
+        // private static void UserTest(UserManager userManager) {
+        //     var newUser = new User {
+        //         UserId = 11,
+        //         FirstName = "Burak",
+        //         LastName = "Kalaycı",
+        //         Email = "tbyte@gmail.com",
+        //         Password = "5581475315"
+        //     };
+        //
+        //     userManager.Add(newUser);
+        //
+        //     foreach (var user in userManager.GetAll().Data) {
+        //         Console.WriteLine($"{user.FirstName} {user.LastName} / {user.Email}");
+        //     }
+        // }
 
         private static void CustomerTest(CustomerManager customerManager) {
             var newCustomer = new Customer {

@@ -31,16 +31,16 @@ insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Descriptio
 insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (9, 9, 2008, 46943, 'Daewoo Lacetti');
 insert into "Cars" ("BrandId", "ColorId", "ModelYear", "DailyPrice", "Description") values (10, 10, 1995, 9281, 'T100 Xtra');
 
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Guinna', 'Clunie', 'gclunie0@plala.or.jp', 'kE50hpPe6Qo1');
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Tasia', 'Ripley', 'tripley1@xinhuanet.com', 'lEbxWW');
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Dominique', 'Muckeen', 'dmuckeen2@ebay.com', '24jGzMsJ');
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Winston', 'Condon', 'wcondon3@sbwire.com', 'RMxtnXVZeiCL');
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Tait', 'Malafe', 'tmalafe4@wordpress.com', 'fQTmXrWt');
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Garvy', 'Tyzack', 'gtyzack5@cnbc.com', 'fEVcnDUpk');
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Niven', 'Boldero', 'nboldero6@hc360.com', 'ObHN8vC7cu1');
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Hersh', 'McQuirter', 'hmcquirter7@about.com', 'D5bltMH');
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Di', 'Barnardo', 'dbarnardo8@yolasite.com', 'zFqXQsFZcM');
-insert into "Users" ("FirstName", "LastName", "Email", "Password") values ('Monti', 'Fisby', 'mfisby9@163.com', 'kLfMyCPrOg2');
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Devina', 'Bodimeade', 'dbodimeade0@dedecms.com', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', true);
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Sydney', 'Sibbons', 'ssibbons1@nba.com', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', true);
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Gabriella', 'Bristowe', 'gbristowe2@disqus.com', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', true);
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Zola', 'Rigbye', 'zrigbye3@cdc.gov', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', false);
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Cinnamon', 'Sowten', 'csowten4@google.ca', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', true);
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Giff', 'Bridle', 'gbridle5@clickbank.net', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', true);
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Merna', 'Lumber', 'mlumber6@wisc.edu', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', false);
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Chrisse', 'Selburn', 'cselburn7@nps.gov', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', false);
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Stearne', 'Bray', 'sbray8@t-online.de', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', true);
+insert into "Users" ("FirstName", "LastName", "Email", "PasswordHash", "PasswordSalt", "Status") values ('Patrizia', 'Frankom', 'pfrankom9@vkontakte.ru', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', 'f17196de6729a3cc760be5ffaedd6c9c6c631dc1', false);
 
 insert into "Customers" ("UserId", "CompanyName") values (1, 'Youspan');
 insert into "Customers" ("UserId", "CompanyName") values (2, 'Riffpath');

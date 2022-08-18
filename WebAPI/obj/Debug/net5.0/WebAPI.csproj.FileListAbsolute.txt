@@ -47,3 +47,15 @@ D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Autofa
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Castle.Core.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\FluentValidation.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

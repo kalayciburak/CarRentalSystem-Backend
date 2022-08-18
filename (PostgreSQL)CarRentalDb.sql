@@ -24,7 +24,6 @@ CREATE TABLE "Colors"
     CONSTRAINT UQ_Color UNIQUE ("ColorName")
 );
 
-
 CREATE TABLE "Brands"
 (
     "BrandId"   integer primary key generated always as identity,
@@ -34,11 +33,26 @@ CREATE TABLE "Brands"
 
 CREATE TABLE "Users"
 (
-    "UserId"    integer primary key generated always as identity,
-    "FirstName" CHARACTER VARYING(35)  NOT NULL,
-    "LastName"  CHARACTER VARYING(35)  NOT NULL,
-    "Email"     CHARACTER VARYING(320) NOT NULL,
-    "Password"  CHARACTER VARYING(25)  NOT NULL
+    "UserId"       integer primary key generated always as identity,
+    "FirstName"    varchar(50) NOT NULL,
+    "LastName"     varchar(50) NOT NULL,
+    "Email"        varchar(50) NOT NULL,
+    "PasswordHash" bytea       NOT NULL,
+    "PasswordSalt" bytea       NOT NULL,
+    "Status"       bool        NOT NULL
+);
+
+CREATE TABLE "OperationClaims"
+(
+    "Id"   integer primary key generated always as identity,
+    "Name" varchar(250) NOT NULL
+);
+
+CREATE TABLE "UserOperationClaims"
+(
+    "Id"               integer primary key generated always as identity,
+    "UserId"           integer NOT NULL,
+    "OperationClaimId" integer NOT NULL
 );
 
 CREATE TABLE "Customers"
@@ -59,10 +73,10 @@ CREATE TABLE "Rentals"
 
 CREATE TABLE "CarImages"
 (
-    "CarImageId"   integer primary key generated always as identity,
-    "CarId"     INTEGER NOT NULL,
-    "ImagePath" TEXT,
-    "DateAdded" DATE    NOT NULL
+    "CarImageId" integer primary key generated always as identity,
+    "CarId"      INTEGER NOT NULL,
+    "ImagePath"  TEXT,
+    "DateAdded"  DATE    NOT NULL
 );
 
 ALTER TABLE "Cars"
@@ -77,3 +91,7 @@ ALTER TABLE "Rentals"
     ADD CONSTRAINT FK_Rental_Customer FOREIGN KEY ("CustomerId") REFERENCES "Customers" ("CustomerId");
 ALTER TABLE "CarImages"
     ADD CONSTRAINT FK_Image_Car FOREIGN KEY ("CarId") REFERENCES "Cars" ("CarId");
+ALTER TABLE "UserOperationClaims"
+    ADD CONSTRAINT FK_UserOperationClaims_User FOREIGN KEY ("UserId") REFERENCES "Users" ("UserId");
+ALTER TABLE "UserOperationClaims"
+    ADD CONSTRAINT FK_UserOperationClaims_OperationClaim FOREIGN KEY ("OperationClaimId") REFERENCES "OperationClaims" ("Id");
