@@ -10,6 +10,3 @@ D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Core\obj\Debug\net5.0\Core.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Core\obj\Debug\net5.0\refint\Core.dll
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Core\obj\Debug\net5.0\Core.pdb
 D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Core\obj\Debug\net5.0\ref\Core.dll
-D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Core\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
-D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Core\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.xml
-D:\Klasorler\Documents\CodeMaster\C#\ReCapProject\Core\obj\Debug\net5.0\Core.csproj.CopyComplete
