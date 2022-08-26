@@ -6328,11 +6328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\CarRentalSystem-Backend\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Core\\Core.csproj",
+      "projectPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\CarRentalSystem-Backend\\Core\\Core.csproj",
       "packagesPath": "D:\\.nuget\\packages",
-      "outputPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\ReCapProject\\Core\\obj\\",
+      "outputPath": "D:\\Klasorler\\Documents\\CodeMaster\\C#\\CarRentalSystem-Backend\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Burak\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -43,6 +43,7 @@ namespace Business.Concrete {
         [TransactionScopeAspect]
         public IResult Add(Car car) {
             _carDal.Add(car);
+            // Test scenerio for transaction scope
             if (car.ModelYear > DateTime.Now.Year) {
                 throw new Exception(message: "Model year can not be greater than current year");
             }
